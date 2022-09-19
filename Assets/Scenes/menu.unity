@@ -491,7 +491,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1311454991}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: Exit
         m_Mode: 1
@@ -821,8 +821,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04853a96b8678bf47bba2f7922fe34c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bestScoreText: {fileID: 0}
-  nameField: {fileID: 0}
+  bestScoreText: {fileID: 1292164713}
+  nameField: {fileID: 1775847918}
   name: 
   bestName: 
   bestScore: 0
@@ -909,7 +909,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1311454991}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: StartNew
         m_Mode: 1
@@ -1265,7 +1265,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter Name...
+  m_Text: Enter Your Name..
 --- !u!222 &1788624848
 CanvasRenderer:
   m_ObjectHideFlags: 0

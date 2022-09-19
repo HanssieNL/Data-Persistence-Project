@@ -48,13 +48,13 @@ public class GameManager : MonoBehaviour {
         Debug.Log("Score: " + score + "  Player: " + name);
     }
 
-    public void StartNew() {
-        if(nameField.text != "") {
+    public void StartNew() 
+    {
+        if(nameField.text != "") 
+        {
             name = nameField.text;
             SceneManager.LoadScene(1);
-        } else {
-            Debug.LogWarning("Please enter a name!");
-        }
+        } 
     }
 
     public void Exit() {
